@@ -1,5 +1,14 @@
-#name {
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
     
+}
+header {
+    background-color: #ffffff;
+
+}
+#name {
+    background-color: #4aaaa5;
+
 }
 #about {
 

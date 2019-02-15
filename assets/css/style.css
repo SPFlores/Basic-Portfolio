@@ -6,6 +6,7 @@ body {
 header {
     display: inline-grid;
     grid-template-rows: 1fr;
+    grid-template-columns: 2fr 4fr 1fr 1fr 1fr;
     grid-template-columns: background-color: #ffffff;
     border-bottom: 2px solid #cccccc;
 }
@@ -17,23 +18,32 @@ section {
     height: 1000px;
     width: 1000px;
     border: 3px solid gray;
+    margin: auto;
 }
 
 #name {
     background-color: #4aaaa5;
     color: #ffffff;
+    grid-row: 1 / span 1;
+    grid-column: 1 / span 1;
 }
 
 #about {
     color: #ffffff;
+    grid-row: 1 / span 1;
+    grid-column: 3 / span 1;
 }
 
 #portfolio {
     color: #ffffff;
+    grid-row: 1 / span 1;
+    grid-column: 4 / span 1;
 }
 
 #contact {
     color: #ffffff;
+    grid-row: 1 / span 1;
+    grid-column: 5 / span 1;
 }
 
 #aboutmetitle {

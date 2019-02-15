@@ -1,25 +1,31 @@
 body {
     font-family: Georgia, 'Times New Roman', Times, serif;
-    
+    color: #777777;
 }
 header {
     background-color: #ffffff;
+    border-bottom: 2px solid #cccccc;
 
 }
 #name {
     background-color: #4aaaa5;
+    color: #ffffff;
 
 }
 #about {
+    color: #ffffff;
 
 }
 #portfolio {
+    color: #ffffff;
 
 }
 #contact {
+    color: #ffffff;
 
 }
 #aboutmetitle {
+    color: #4aaaa5
 
 }
 #aboutmepic {

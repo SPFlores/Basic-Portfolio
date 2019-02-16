@@ -117,8 +117,8 @@ header {
 
 #contactform {
     display: grid;
-    grid-template-columns: ;
-    grid-template-rows: ;
+    grid-template-columns: 1fr;
+    grid-template-rows: 0.25fr 0.25fr 1fr 1fr 3fr;
     width: 1000px;
     border: 3px solid gray;
     margin: auto;
@@ -127,10 +127,25 @@ header {
     padding: 15px;
 }
 
+#nameenter {
+grid-row: 3 / span 1;
+grid-column: 1 / span 1;
+}
+
+#emailenter{
+grid-row: 4 / span 1;
+grid-column: 1 / span 1
+}
+
+#messageenter {
+grid-row: 5 / span 1;
+grid-column: 1 / span 1;
+}
+
 #portfoliobody {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-rows: 0.25fr 0.25fr 1fr 1fr 1fr;
     width: 1000px;
     border: 3px solid gray;
     margin: auto;
@@ -150,35 +165,35 @@ header {
 #portpic1 {
     display: grid;
     grid-column: 1 / span 1;
-    grid-row: 1 / span 1;
+    grid-row: 3 / span 1;
     margin: auto;
 }
 
 #portpic2 {
     display: grid;
     grid-column: 2 / span 1;
-    grid-row: 1 / span 1;
+    grid-row: 3 / span 1;
     margin: auto;
 }
 
 #portpic3 {
     display: grid;
     grid-column: 1 / span 1;
-    grid-row: 2 / span 1;
+    grid-row: 4 / span 1;
     margin: auto;
 }
 
 #portpic4 {
     display: grid;
     grid-column: 2 / span 1;
-    grid-row: 2 / span 1;
+    grid-row: 4 / span 1;
     margin: auto;
 }
 
 #portpic5 {
     display: grid;
     grid-column: 1 / span 1;
-    grid-row: 3 / span 1;
+    grid-row: 5 / span 1;
     margin: auto;
 }
 
@@ -202,6 +217,7 @@ footer {
     width: 100%;
     height: 50px;
     border-top: 10px solid #4aaaa5;
+    padding-top: 20px;
 }
 
 #copyright {

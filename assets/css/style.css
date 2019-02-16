@@ -17,6 +17,10 @@ h3 {
     font-size: 25px;
 }
 
+h4 {
+    font-size: 15px;
+}
+
 header {
     display: grid;
     grid-template-rows: 1fr;
@@ -193,8 +197,13 @@ footer {
     position: fixed;
     bottom: 0px;
     text-align: center;
-    background-color: darkslategray;
+    color: #cccccc;
+    background-color: #666666;
     width: 100%;
     height: 50px;
     border-top: 10px solid #4aaaa5;
+}
+
+#copyright {
+    bottom: 0px;
 }

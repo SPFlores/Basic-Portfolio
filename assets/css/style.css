@@ -25,6 +25,7 @@ section {
     border: 3px solid gray;
     margin: auto;
     margin-top: 90px;
+    margin-bottom: 90px;
     padding: 15px;
 }
 
@@ -104,4 +105,5 @@ footer {
     text-align: center;
     background-color: darkslategray;
     width: 100%;
+    border-top: 10px solid #4aaaa5;
 }

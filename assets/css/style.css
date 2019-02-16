@@ -120,14 +120,24 @@ section {
 
 #portfoliobody {
     display: grid;
-    grid-template-columns: ;
-    grid-template-rows: ;
+    grid-template-columns: 1px 1px;
+    grid-template-rows: 1px 1px 1px;
     width: 1000px;
     border: 3px solid gray;
     margin: auto;
     margin-top: 90px;
     margin-bottom: 90px;
     padding: 15px;
+}
+
+.portpic {
+    height: 200px;
+    width: 200px;
+}
+
+figcaption {
+    background-color: #4aaaa5;
+    width: 100%;
 }
 
 footer {

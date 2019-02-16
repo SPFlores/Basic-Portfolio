@@ -24,7 +24,7 @@ section {
     width: 825px;
     border: 3px solid gray;
     margin: auto;
-    margin-top: 20px;
+    margin-top: 90px;
     padding: 15px;
 }
 
@@ -34,6 +34,7 @@ section {
     grid-row: 1 / span 1;
     grid-column: 1 / span 1;
     margin: auto;
+    text-align: center;
 }
 
 #about {
@@ -63,7 +64,7 @@ section {
     grid-row: 1 / span 1;
     margin-left: 20px;
     margin-top: 15px;
-    justify-content: left;
+    text-align: left
 }
 #horizontalline {
     grid-column: 1 / span 3;
@@ -74,7 +75,7 @@ section {
 #aboutmepic {
     grid-column: 1 / span 1;
     grid-row: 3 / span 1;
-    margin-left: 40px;
+    text-align: center;
 }
 
 #mypicture {
@@ -96,3 +97,11 @@ section {
 #contactform {}
 
 #portfoliobody {}
+
+footer {
+    position: fixed;
+    bottom: 0px;
+    text-align: center;
+    background-color: darkslategray;
+    width: 100%;
+}

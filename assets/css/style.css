@@ -125,7 +125,7 @@ header {
 
 #portfoliobody {
     display: grid;
-    grid-template-columns: 1fr 1cr;
+    grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr;
     width: 1000px;
     border: 3px solid gray;
@@ -133,12 +133,13 @@ header {
     margin-top: 90px;
     margin-bottom: 90px;
     padding: 15px;
+    grid-row-gap: 30px;
+    grid-column-gap: 15px;
 }
 
 .portpic {
-    height: 300px;
+    height: 200px;
     width: 300px;
-    /* position: relative; */
     text-align: center;
 }
 
@@ -183,8 +184,9 @@ header {
     height: 60px;
     width: 300px;
     background-color: #4aaaa5;
-    margin-top: 225px;
+    margin-top: 130px;
     text-align: center;
+    padding: 15px;
 }
 
 footer {

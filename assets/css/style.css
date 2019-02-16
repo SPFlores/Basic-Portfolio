@@ -133,6 +133,8 @@ header {
 .portpic {
     height: 200px;
     width: 200px;
+    position: relative;
+    text-align: center;
 }
 
 #portpic1 {
@@ -170,10 +172,14 @@ header {
     margin: auto;
 }
 
-figcaption {
+#caption {
+    position: absolute;
+    /* bottom: 10px; */
+    color: white;
+    height: 50px;
+    width: 200px;
     background-color: #4aaaa5;
-    width: 100%;
-    margin-bottom: 10px;
+  }x;
 }
 
 footer {

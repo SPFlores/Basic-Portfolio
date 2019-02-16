@@ -26,7 +26,7 @@ header {
     top: 0px;
 }
 
-section {
+#aboutmesection {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 0.25fr 0.25fr 1fr 1fr;
@@ -120,8 +120,8 @@ section {
 
 #portfoliobody {
     display: grid;
-    grid-template-columns: 1px 1px;
-    grid-template-rows: 1px 1px 1px;
+    grid-template-columns: 1fr 1cr;
+    grid-template-rows: 1fr 1fr 1fr;
     width: 1000px;
     border: 3px solid gray;
     margin: auto;
@@ -135,9 +135,45 @@ section {
     width: 200px;
 }
 
+#portpic1 {
+    display: grid;
+    grid-column: 1 / span 1;
+    grid-row: 1 / span 1;
+    margin: auto;
+}
+
+#portpic2 {
+    display: grid;
+    grid-column: 2 / span 1;
+    grid-row: 1 / span 1;
+    margin: auto;
+}
+
+#portpic3 {
+    display: grid;
+    grid-column: 1 / span 1;
+    grid-row: 2 / span 1;
+    margin: auto;
+}
+
+#portpic4 {
+    display: grid;
+    grid-column: 2 / span 1;
+    grid-row: 2 / span 1;
+    margin: auto;
+}
+
+#portpic5 {
+    display: grid;
+    grid-column: 1 / span 1;
+    grid-row: 3 / span 1;
+    margin: auto;
+}
+
 figcaption {
     background-color: #4aaaa5;
     width: 100%;
+    margin-bottom: 10px;
 }
 
 footer {

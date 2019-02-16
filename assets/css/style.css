@@ -61,8 +61,8 @@ section {
 #aboutmepic {
     grid-column: 1 / span 1;
     grid-row: 3 / span 1;
-    height: 200px;
-    width: 200px;
+    margin-left: 50px;
+    align-content: center;
 }
 
 #aboutmeparagraph1 {

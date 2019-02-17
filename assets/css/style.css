@@ -13,16 +13,20 @@ h2 {
     font-weight: bold;
 }
 
-h3 {
-    font-size: 25px;
-}
-
 h4 {
     font-size: 15px;
 }
 
 p {
     font-size: 20px;
+}
+
+a:link {
+    color: #4aaaa5;
+}
+
+a:visited {
+    color: black;
 }
 
 header {
@@ -69,6 +73,7 @@ header {
     grid-row: 1 / span 1;
     grid-column: 4 / span 1;
     margin: auto;
+    font-size: 20px;
 }
 
 #portfolio {
@@ -76,6 +81,7 @@ header {
     grid-row: 1 / span 1;
     grid-column: 5 / span 1;
     margin: auto;
+    font-size: 20px;
 }
 
 #contact {
@@ -83,6 +89,7 @@ header {
     grid-row: 1 / span 1;
     grid-column: 6 / span 1;
     margin: auto;
+    font-size: 20px;
 }
 
 #aboutmetitle {
@@ -255,9 +262,9 @@ footer {
     color: #cccccc;
     background-color: #666666;
     width: 100%;
-    height: 50px;
+    height: 40px;
     border-top: 10px solid #4aaaa5;
-    padding-top: 20px;
+    padding-top: 10px;
 }
 
 #copyright {

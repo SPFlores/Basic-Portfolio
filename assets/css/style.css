@@ -50,7 +50,7 @@ header {
     margin: auto;
     margin-top: 90px;
     margin-bottom: 90px;
-    padding: 15px;
+    padding: 25px;
 }
 
 #name {
@@ -123,6 +123,7 @@ header {
     align-items: center;
     grid-column: 1 / span 3;
     grid-row: 4 span 1;
+    padding-right: 15px;
 }
 
 #contactform {
